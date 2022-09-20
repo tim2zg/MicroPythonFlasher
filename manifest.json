@@ -1,0 +1,37 @@
+{
+  "name": "MicroPython",
+  "version": "1.19.1",
+  "funding_url": "https://micropython.org",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "mcp/esp32-ota-20220618-v1.19.1.bin", "offset": 4096}
+      ]
+    },
+    {
+      "chipFamily": "ESP32-C3",
+      "parts": [
+        { "path": "mcp/esp32c3-20220618-v1.19.1.bin", "offset": 0}
+      ]
+    },
+    {
+      "chipFamily": "ESP32-S2",
+      "parts": [
+        { "path": "mcp/GENERIC_S2-20220618-v1.19.1.bin", "offset": 4096}
+      ]
+    },
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "mcp/GENERIC_S3-20220618-v1.19.1.bin", "offset": 0}
+      ]
+    },
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        { "path": "mcp/esp8266-20220618-v1.19.1.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
